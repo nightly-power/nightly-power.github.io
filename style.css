@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    (null)
+/*	    MainWebsite
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -18,11 +18,9 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
    
 
 
-
-
 /* Globals type styling */
  h1, h2, h3, h4, h5, h6, p, label, .btn, a{
-	font-family:Source Sans Pro;
+	font-family:Arvo;
 }
 
 
@@ -58,6 +56,22 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 .bloc-sm{
 	padding:20px 50px;
+}
+
+
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-center{
+	-webkit-background-size: auto;
+}
+.bg-repeat{
+	background:repeat;
 }
 
 
@@ -133,32 +147,29 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 /* Custom bloc styling */
 
-#nav-bloc,#hero-bloc,#bloc-2,#bloc-3,#bloc-4,#bloc-5{
+#,#,#bloc-2,#bloc-3,#bloc-4,#bloc-5,#bloc-6{
 	background-color:#FFF;
 }
-#hero-bloc h1{
+#bloc-0 h1{
 	font-size:50px;
 }
-#hero-bloc h3{
+#bloc-0 h3{
 	font-size:30px;
 }
-#bloc-3 h3{
-	line-height:50px;
-}
-#bloc-5 h3{
+#bloc-6 h3{
 	line-height:50px;
 }
 
 /* Bloc image backgrounds */
 
-.bg-citysky{
-	background-image:url('img/citysky.jpg');
+.bg-city{
+	background-image:url("img/city.jpg");
 }
-.bg-newyork{
-	background-image:url('img/newyork.jpg');
+.bg-crosses-l-bg{
+	background-image:url("img/crosses-l-bg.png");
 }
-.bg-camera-overlay{
-	background-image:url('img/camera-overlay.png');
+.bg-lines-h-bg{
+	background-image:url("img/lines-h-bg.png");
 }
 
 /* = NavBar
@@ -301,32 +312,11 @@ button{
 
 
 
-/* Link colour styles */
-
-.ltc-2{
-	color:#ffffff!important;
-}
-.ltc-2:hover{
-	color:#ffffff!important;
-}
 
 
 
 
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
 
 
 /* iFrame */
